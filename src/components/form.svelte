@@ -2,6 +2,7 @@
 
     let fields = {firstName: '', lastName: '', email: '', phoneNumber: '', password: '', confirmPassword: ''};
     let error = {firstName: '', lastName: '', email: '', phoneNumber: '', password: '', confirmPassword: ''};
+    let valid = false;
 
     const resetForm = () => {
         fields = {firstName: '', lastName: '', email: '', phoneNumber: '', password: '', confirmPassword: ''};
