@@ -74,6 +74,8 @@
         display: grid;
         grid-template-columns: 30% 30%;
         column-gap: 3rem;
+        background-color: grey;
+        filter:drop-shadow(1px 2px 4px grey)
     }
     .form-field {
         display: flex;
